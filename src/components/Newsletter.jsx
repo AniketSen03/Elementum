@@ -31,39 +31,20 @@ export default function Newsletter() {
       </svg>
 
       <div className="mx-auto max-w-content px-6 sm:px-8 lg:px-10 text-center">
-        <h2 className="font-display font-semibold text-4xl sm:text-5xl leading-[1.1]">
+        <h2 className="font-gerbil font-semibold text-4xl sm:text-5xl leading-[1.1]">
           Subscribe to
           <br />
           our newsletter
         </h2>
-        <p className="mt-4 text-sm sm:text-base text-ink/70">
+        <p className="font-satoshi mt-4 text-sm sm:text-base text-ink/70">
           To make your stay special and even more memorable
         </p>
-
-        <form
-          onSubmit={handleSubmit}
-          className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-3 max-w-md mx-auto"
-          noValidate
-        >
-          <label htmlFor="newsletter-email" className="sr-only">
-            Email address
-          </label>
-          <input
-            id="newsletter-email"
-            type="email"
-            required
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            placeholder="Enter your email"
-            className="w-full sm:flex-1 rounded-full px-5 py-3 text-sm bg-cream border border-ink/10 focus:outline-none focus:ring-2 focus:ring-violet placeholder:text-ink/40"
-          />
           <button
             type="submit"
-            className="w-full sm:w-auto shrink-0 rounded-full bg-ink text-cream px-7 py-3 text-sm font-semibold hover:bg-ink/85 active:scale-[0.98] transition"
+            className="mt-5 w-full sm:w-auto shrink-0 rounded-full bg-ink text-cream px-7 py-3 text-sm font-semibold hover:bg-ink/85 active:scale-[0.98] transition"
           >
             Subscribe Now
           </button>
-        </form>
 
         <p className="mt-3 h-5 text-xs" role="status" aria-live="polite">
           {status === 'success' && (

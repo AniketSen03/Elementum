@@ -12,7 +12,7 @@ export default function Hero() {
       <BlobShape className="absolute right-4 top-24 w-14 sm:w-16 lg:w-20 lg:right-10 pointer-events-none" />
 
       <div className="mx-auto max-w-content px-6 sm:px-8 lg:px-10 text-center">
-        <h1 className="font-display font-semibold leading-[1.05] text-[2.6rem] sm:text-6xl lg:text-7xl">
+        <h1 className="font-gerbil font-semibold leading-[1.05] text-[2.6rem] sm:text-6xl lg:text-7xl">
           <span className="block">
             The{' '}
             <span className="underline-squiggle underline-orange">thinkers</span> and
@@ -26,7 +26,7 @@ export default function Hero() {
           </span>
         </h1>
 
-        <p className="mt-6 max-w-xl mx-auto text-sm sm:text-base text-ink/60 leading-relaxed">
+        <p className="font-satoshi mt-6 max-w-xl mx-auto text-sm sm:text-base text-ink/60 leading-relaxed">
           We are a team of strategists, designers communicators, researchers. Together,
           we believe that progress only happens when you refuse to play things safe.
         </p>

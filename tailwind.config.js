@@ -19,6 +19,8 @@ export default {
       fontFamily: {
         display: ['"Baloo 2"', '"Comic Sans MS"', 'cursive'],
         body: ['"Poppins"', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        satoshi: ["Satoshi", "sans-serif"],
+        gerbil: ["Gerbil", "sans-serif"],
       },
       maxWidth: {
         content: '1240px',

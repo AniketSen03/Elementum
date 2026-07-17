@@ -30,20 +30,20 @@ export default function ProgressSection() {
 
           {/* Text */}
           <div>
-            <h2 className="font-display font-semibold text-4xl sm:text-5xl leading-[1.1]">
+            <h2 className="font-gerbil font-semibold text-4xl sm:text-5xl leading-[1.1]">
               <span className="highlight-mark highlight-mint">See</span> how we can
               <br />
               help you{' '}
               <span className="underline-squiggle underline-ink">progress</span>
             </h2>
-            <p className="mt-6 max-w-md text-sm sm:text-base text-ink/60 leading-relaxed">
+            <p className="font-satoshi mt-6 max-w-md text-sm sm:text-base text-ink/60 leading-relaxed">
               We add a layer of fearless insights and action that allows change
               makers to accelerate their progress in areas such as brand, design
               digital, comms and social research.
             </p>
             <a
               href="#contact"
-              className="mt-7 inline-flex items-center gap-3 text-sm font-semibold group"
+              className="font-satoshi mt-7 inline-flex items-center gap-3 text-sm font-semibold group"
             >
               Read more
               <span className="inline-block w-10 h-px bg-ink transition-all group-hover:w-14" />

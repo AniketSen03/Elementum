@@ -19,7 +19,7 @@ export default function Testimonials() {
   return (
     <section id="faqs" className="relative py-20 sm:py-28">
       <div className="mx-auto max-w-content px-6 sm:px-8 lg:px-10">
-        <h2 className="text-center font-display font-semibold text-4xl sm:text-5xl leading-[1.1]">
+        <h2 className="text-center font-gerbil font-semibold text-4xl sm:text-5xl leading-[1.1]">
           <span className="highlight-mark highlight-mint">What</span> our customer
           <br />
           says <span className="underline-squiggle underline-orange">About Us</span>
@@ -36,20 +36,16 @@ export default function Testimonials() {
           </div>
 
           {/* Quote card */}
-          <blockquote className="relative z-10 max-w-xl bg-mint/60 rounded-[2.5rem] px-8 sm:px-12 py-10 sm:py-12 text-center">
-            <span className="block font-display text-5xl sm:text-6xl leading-none text-ink/30 mb-2">
+          <blockquote className="relative z-10 max-w-xl bg-[#D7EEDD4D] rounded-[2.5rem] px-8 sm:px-12 py-10 sm:py-12 text-center">
+            <span className="block font-satoshi text-5xl sm:text-6xl leading-none text-ink/30 mb-2">
               &ldquo;
             </span>
-            <p className="text-sm sm:text-base text-ink/80 leading-relaxed -mt-4">
+            <p className="font-satoshi text-sm sm:text-base text-black leading-relaxed -mt-4">
               {testimonial.quote}
             </p>
-            <span className="block font-display text-5xl sm:text-6xl leading-none text-ink/30 mt-2 rotate-180">
+            <span className="block font-satoshi text-5xl sm:text-6xl leading-none text-ink/30 mt-2">
               &rdquo;
             </span>
-            <footer className="mt-4 text-sm font-semibold">
-              {testimonial.author}
-              <span className="block text-xs font-normal text-ink/50">{testimonial.role}</span>
-            </footer>
           </blockquote>
 
           {/* Mobile fallback: simple avatar row */}

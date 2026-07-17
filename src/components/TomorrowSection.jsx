@@ -7,21 +7,21 @@ export default function TomorrowSection() {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-8 items-center">
           {/* Text */}
           <div className="relative order-2 lg:order-1">
-            <h2 className="font-display font-semibold text-4xl sm:text-5xl leading-[1.1]">
+            <h2 className="font-gerbil font-semibold text-4xl sm:text-5xl leading-[1.1]">
               Tomorrow should
               <br />
               be{' '}
               <span className="underline-squiggle underline-ink">better</span> than{' '}
               <span className="highlight-mark highlight-mint">today</span>
             </h2>
-            <p className="mt-6 max-w-md text-sm sm:text-base text-ink/60 leading-relaxed">
+            <p className="mt-6 max-w-md text-sm sm:text-base text-ink/60 leading-relaxed font-satoshi">
               We are a team of strategists, designers communicators, researchers.
               Together, we believe that progress only happens when you refuse to
               play things safe.
             </p>
             <a
               href="#services"
-              className="mt-7 inline-flex items-center gap-3 text-sm font-semibold group"
+              className="font-satoshi mt-7 inline-flex items-center gap-3 text-sm font-semibold group"
             >
               Read more
               <span className="inline-block w-10 h-px bg-ink transition-all group-hover:w-14" />

@@ -11,11 +11,11 @@ export default function Navbar() {
         className="mx-auto max-w-content px-6 sm:px-8 lg:px-10 flex items-center justify-between py-6"
         aria-label="Primary"
       >
-        <a href="#home" className="font-display text-2xl sm:text-3xl font-semibold tracking-wide">
+        <a href="#home" className="font-gerbil text-2xl sm:text-3xl font-semibold tracking-wide">
           Elementum
         </a>
 
-        <ul className="hidden md:flex items-center gap-9 text-sm font-medium text-ink/80">
+        <ul className="hidden md:flex items-center gap-9 text-sm font-medium font-satoshi text-black">
           {navLinks.map((link) => (
             <li key={link.label}>
               <a
@@ -65,7 +65,7 @@ export default function Navbar() {
           }`}
         >
           <div className="flex items-center justify-between px-6 py-6">
-            <span className="font-display text-2xl font-semibold">Elementum</span>
+            <span className="font-gerbil text-2xl font-semibold">Elementum</span>
             <button
               type="button"
               onClick={() => setOpen(false)}
@@ -75,7 +75,7 @@ export default function Navbar() {
               <HiOutlineX className="w-6 h-6" />
             </button>
           </div>
-          <ul className="flex flex-col gap-2 px-6 mt-4">
+          <ul className="flex flex-col gap-2 px-6 mt-4 font-satoshi">
             {navLinks.map((link) => (
               <li key={link.label}>
                 <a
