@@ -2,7 +2,7 @@ import { heroAvatars } from '../data/content'
 import { WavyLoop } from './decor/Shapes'
 import underlineThinkers from '../assets/underline.png'
 import blobPurple from '../assets/Ellipse.png'
-
+import Avatar from './Avatar'
 export default function Hero() {
   return (
     <section id="home" className="relative overflow-hidden pt-4 pb-20 sm:pb-28">
