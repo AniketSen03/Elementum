@@ -1,4 +1,5 @@
 import { TriangleShape, ConnectorSquiggle } from './decor/Shapes'
+import underlineThinkers from '../assets/underline.png'
 
 export default function ProgressSection() {
   return (
@@ -10,31 +11,32 @@ export default function ProgressSection() {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-8 items-center">
           {/* Image */}
           <div className="relative flex justify-center lg:justify-start">
-            <TriangleShape
-              className="absolute -left-3 -top-6 w-14 sm:w-16"
-              rotate={-8}
-            />
+           <img src="src/assets/Polygon 1.png" alt=""  className='absolute -left-4 -top-4 w-24 sm:w-32 h-auto pointer-events-none select-none'/>
             <div className="relative w-64 h-64 sm:w-80 sm:h-80 rounded-full overflow-hidden shadow-xl">
               <img
-                src="https://picsum.photos/id/1074/700/700"
+                src="src/assets/image 348 (1).png"
                 alt="Two designers reviewing work together on a laptop"
                 loading="lazy"
                 className="w-full h-full object-cover"
               />
             </div>
-            <TriangleShape
-              className="absolute right-4 -bottom-6 w-20 sm:w-24"
-              rotate={4}
-            />
+                     <img src="src/assets/Polygon 1.png" alt=""  className='absolute left-44 -bottom-4 w-24 sm:w-32 h-auto pointer-events-none select-none'/>
           </div>
 
           {/* Text */}
           <div>
             <h2 className="font-gerbil font-semibold text-4xl sm:text-5xl leading-[1.1]">
-              <span className="highlight-mark highlight-mint">See</span> how we can
+              <span className="relative inline-block isolate p-3 bg-[#D7EEDD] rounded-full">See</span> how we can
               <br />
               help you{' '}
-              <span className="underline-squiggle underline-ink">progress</span>
+              <span className='relative inline-block isolate w-fit leading-[1.05]'>progress
+                 <img
+                                              src={underlineThinkers}
+                                              alt=""
+                                              aria-hidden="true"
+                                              className="absolute left-0 -bottom-2 sm:-bottom-3 w-full h-auto pointer-events-none select-none z-[-1]"
+                                            /> 
+              </span>
             </h2>
             <p className="font-satoshi mt-6 max-w-md text-sm sm:text-base text-ink/60 leading-relaxed">
               We add a layer of fearless insights and action that allows change
