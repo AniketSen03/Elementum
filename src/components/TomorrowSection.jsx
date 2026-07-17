@@ -41,7 +41,7 @@ export default function TomorrowSection() {
             <div className="absolute -inset-10 bg-coral/10 blur-3xl rounded-full pointer-events-none" />
             <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden shadow-xl">
               <img
-                src="src/assets/image 348.png"
+                src="/image 348.png"
                 alt="Two colleagues shaking hands after a productive meeting"
                 loading="lazy"
                 className="w-full h-full object-cover"

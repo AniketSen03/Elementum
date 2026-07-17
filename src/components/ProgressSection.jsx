@@ -11,16 +11,16 @@ export default function ProgressSection() {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-8 items-center">
           {/* Image */}
           <div className="relative flex justify-center lg:justify-start">
-           <img src="src/assets/Polygon 1.png" alt=""  className='absolute -left-4 -top-4 w-24 sm:w-32 h-auto pointer-events-none select-none'/>
+           <img src="/Polygon 1.png" alt=""  className='absolute -left-4 -top-4 w-24 sm:w-32 h-auto pointer-events-none select-none'/>
             <div className="relative w-64 h-64 sm:w-80 sm:h-80 rounded-full overflow-hidden shadow-xl">
               <img
-                src="src/assets/image 348 (1).png"
+                src="/image 348 (1).png"
                 alt="Two designers reviewing work together on a laptop"
                 loading="lazy"
                 className="w-full h-full object-cover"
               />
             </div>
-                     <img src="src/assets/Polygon 1.png" alt=""  className='absolute left-44 -bottom-4 w-24 sm:w-32 h-auto pointer-events-none select-none'/>
+                     <img src="/Polygon 1.png" alt=""  className='absolute left-44 -bottom-4 w-24 sm:w-32 h-auto pointer-events-none select-none'/>
           </div>
 
           {/* Text */}
