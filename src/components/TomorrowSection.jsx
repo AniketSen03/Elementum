@@ -11,7 +11,7 @@ export default function TomorrowSection() {
               Tomorrow should
               <br />
               be{' '}
-              <span className="underline-squiggle underline-ink">better</span> than{' '}
+              <span>better</span> than{' '}
               <span className="highlight-mark highlight-mint">today</span>
             </h2>
             <p className="mt-6 max-w-md text-sm sm:text-base text-ink/60 leading-relaxed font-satoshi">
